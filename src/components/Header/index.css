@@ -91,7 +91,6 @@
 }
 
 .instructions-description{
-    /* color: #000; */
     font-weight: 500;
     font-size: 16px;
 }
@@ -116,4 +115,8 @@
 .grayColor{
     background-color: gray;
     margin-right: 10px;
+}
+
+.trigger-button{
+    outline: none;
 }

@@ -69,3 +69,5 @@
 *    Icons (react-icons)
 
 *    Animation (lottie-react)
+
+*    popup (reactjs-popup)
