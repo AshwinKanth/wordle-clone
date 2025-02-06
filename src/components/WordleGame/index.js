@@ -103,7 +103,7 @@ class WordleGame extends Component {
 
           return (
             <div className={`game-container ${gameContainerClass}`}>
-              <img src="https://res.cloudinary.com/dq1ktqbtb/image/upload/v1738746270/1089_xia660.jpg" alt="" className="gameImage" />
+              <img src="https://res.cloudinary.com/dq1ktqbtb/image/upload/v1738827143/1089_rnecvt.jpg" alt="" className="gameImage" />
               <div className="gameInput-container">
                 <GuessGrid guesses={guesses} targetWord={this.state.targetWord} />
                 {gameStatus === 'playing' && (

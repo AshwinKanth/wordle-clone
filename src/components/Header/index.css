@@ -40,11 +40,80 @@
     flex-direction: row;
     align-items: center;
     margin: 10px;
-    transition: all ease-in-out 0.3s;
     list-style: none;
     padding-right: 30px;
 }
 
-.nav-link:hover {
+.navItem{
+    transition: all ease-in-out 0.3s;
+}
+
+.navItem:hover {
     transform: translateY(-3px);
+}
+
+.navItem{
+    margin-right: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .navItem{
+        margin-right: 20px;
+    }.nav-link{
+        padding-right: 20px;
+    }
+}
+
+
+.popup-container{
+    background-color: rgba(192, 212, 246, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(13, 40, 243, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.popupDescription{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.instructions-description{
+    /* color: #000; */
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.colorDef{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.GreenColor{
+    background-color: green;
+    margin-right: 10px;
+}
+
+.yellowColor{
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.grayColor{
+    background-color: gray;
+    margin-right: 10px;
 }

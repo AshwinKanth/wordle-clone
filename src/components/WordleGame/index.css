@@ -11,7 +11,6 @@
 
 .gameImage {
   width: 25%;
-  background-color: green;
   border-radius: 20px;
 }
 
@@ -52,6 +51,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 20px;
 }
 
 .new-game-button:hover {
